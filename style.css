@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    background: no-repeat;
+}
+
+body{
+    background: linear-gradient(100deg, #00feba, #5b548a);
+}
+
+.card{
+    width: 100%;
+    max-width: 470px;
+    background:linear-gradient(135deg, #00feba , #5b548a);
+    color: #fff;
+    margin: 50px auto 0;
+    border-radius: 30px;
+    padding: 20px 50px;
+    text-align: center;
+    border: 2px solid  black;
+}
+
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 2px solid rgb(54, 50, 50);
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px; 
+}
+
+
+.search button{
+    border: 2px solid rgb(54, 50, 50);
+    outline: 2;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    animation: button 2s timing-function delay infinite direction fill-mode;
+}
+
+.search button img{
+    height: 30px;
+    width: 30px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+.container{
+    padding-bottom: 50px;
+}
+
+
+/* Animation For Button */
+
+.search button:hover{
+    scale: 1.1;
+}
+
+.search1:hover{
+    scale: 1.01;
+}
